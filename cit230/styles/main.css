@@ -21,7 +21,7 @@ h2 {
     font-weight: bold;
     text-align: center;
     border-bottom: 1px solid #bbb;
-    color: #897baf;
+    color: #444247;
 }
 
 header, main, footer {
@@ -32,8 +32,8 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color: #281758;
-    color: whitesmoke;
+    background-color: #1f1e20;
+    color: white;
 }
 
 header img {
