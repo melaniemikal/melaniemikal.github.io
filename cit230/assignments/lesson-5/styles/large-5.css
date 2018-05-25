@@ -9,11 +9,15 @@
         width: 300px;
     }
     
+    
     nav ul li a {
         font-size: 2rem;
     }
     
-  
+    header .subheading {
+        font-size: 45px;
+       
+    }
   
     main article {
         font-size: 50px;   
