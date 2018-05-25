@@ -13,7 +13,7 @@ header {}
    
     h1 {
         color: #0980CE;
-        text-align: right;
+        text-align: center;
         font-size: 30px;
         display: block;
         margin: 50px;
@@ -29,7 +29,12 @@ header {}
 
    
 
-header .subheading {}
+header .subheading {
+    font-family: "Nunito";
+    color: #0980CE;
+    text-align: center;
+    margin-top: -45px;
+}
 
 nav {
     background-color: #9CF8CC;
@@ -133,6 +138,7 @@ footer {
     overflow: scroll;
     height: 350px;
 }
+
 
 
 
