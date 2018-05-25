@@ -1,0 +1,140 @@
+* { box-sizing: border-box;} 
+
+body {
+  font-size: 16px;
+  font-family: "Noto Serif";
+}
+
+header, nav, main, footer { 
+  max-width: 100%;
+}
+
+header {} 
+   
+    h1 {
+        color: #0980CE;
+        text-align: right;
+        font-size: 30px;
+        display: block;
+        margin: 50px;
+    }
+    
+    img {
+        position: relative;
+        width: 175px;
+        margin-top: 40px;
+        display: inline-block;
+    }
+
+
+   
+
+header .subheading {}
+
+nav {
+    background-color: #9CF8CC;
+    text-align: center;
+    
+    
+}
+nav button {
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li { 
+    display: block;
+    font-family: Nunito;
+    margin: 15px 15px;
+}
+
+nav ul li a {
+    display: block;
+    color: #0980CE;
+    text-align: center;
+    padding: .15rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+nav ul li.active a {}
+
+nav ul li a:hover {
+    color: #00D56F
+}
+
+.forecast{
+    display: none;
+}
+
+
+main {}
+main h2 {
+    text-align: center;
+    color:#0980CE;
+    
+}
+main figure { margin: 0 0 .2rem 18%; width: 96%; }
+main figure img { 
+    width: 65%;
+    height: auto;
+    
+}
+
+main article {
+    text-align: center;
+    
+}
+
+main article img {
+    width: 95%;
+    height: auto;
+}
+
+footer {
+    clear: both;
+    background-color: #A1D5F6;
+    font-size: 12px;
+    text-align: center;
+}
+.footer-bar {
+    background-color: #70BDEF;
+    font-size: 12px;
+}
+
+.current img {
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    margin: 0;    
+}
+
+.current {
+    text-align: center;
+    
+}
+
+.highlow {
+    display: inline;
+    text-align: center; 
+}
+
+.conditions {
+    flex-direction: column;
+    text-align: center;
+}
+
+.town-article {
+    overflow: scroll;
+    height: 350px;
+}
+
+
+
+
+

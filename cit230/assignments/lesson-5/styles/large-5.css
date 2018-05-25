@@ -1,0 +1,39 @@
+@media only screen and (min-width: 64em) {
+    
+    header h1 {
+        font-size: 100px;
+        float: right;
+    }
+    
+    header img {
+        width: 300px;
+    }
+    
+    nav ul li a {
+        font-size: 2rem;
+    }
+    
+  
+  
+    main article {
+        font-size: 50px;   
+    }
+    
+    main article img {
+        width: 650px;
+        
+    }
+    
+    .town-article {
+        width: 50em;
+        font-size: 20px;
+        overflow: visible;
+    }
+    
+    footer {
+        font-size: 16px;
+}
+.footer-bar {
+    font-size: 16px;
+}
+}
