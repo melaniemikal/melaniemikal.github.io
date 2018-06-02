@@ -12,7 +12,7 @@ var n = weekday[d.getDay()];
 var datestring = d.getDate()  + " " + (d.getMonth()+1) + " " + d.getFullYear();
 
 
-document.getElementById("currentdate").innerHTML = n + " ", "," + datestring;
+document.getElementById("currentdate").innerHTML = n + "," + " " + datestring;
 
 
 
