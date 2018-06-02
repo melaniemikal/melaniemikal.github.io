@@ -2,7 +2,7 @@
 
 body {
   font-size: 16px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", serif;
 }
 
 header, nav, main, footer { 
@@ -30,7 +30,7 @@ header {}
    
 
 header .subheading {
-    font-family: "Nunito";
+    font-family: "Nunito", sans-serif;
     color: #0980CE;
     text-align: center;
     margin-top: -45px;
@@ -54,7 +54,7 @@ nav ul {
 
 nav ul li { 
     display: block;
-    font-family: Nunito;
+    font-family: "Nunito", sans-serif;
     margin: 15px 15px;
 }
 
