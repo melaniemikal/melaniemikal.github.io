@@ -9,7 +9,24 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
 var n = weekday[d.getDay()];
-var datestring = d.getDate()  + " " + (d.getMonth()+1) + " " + d.getFullYear();
+
+var x = new Date();
+var month = new Array(12);
+month[0] = "January";
+month[1] = "February";
+month[2] = "March";
+month[3] = "April";
+month[4] = "May";
+month[5] = "June";
+month[6] = "July";
+month[7] = "August";
+month[8] = "September";
+month[9] = "October";
+month[10]= "November";
+month[11] = "December";
+
+var y = month[d.getMonth()];
+var datestring = d.getDate()  + " " + y + " " + d.getFullYear();
 
 
 document.getElementById("currentdate").innerHTML = n + "," + " " + datestring;
