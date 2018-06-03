@@ -101,12 +101,15 @@ main figure img {
 
 main article {
     text-align: center;
+    padding: 10px 10px;
+    
     
 }
 
 main article img {
     width: 95%;
     height: auto;
+    padding: 10px;
 }
 
 .current {
