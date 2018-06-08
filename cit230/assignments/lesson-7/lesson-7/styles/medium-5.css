@@ -34,30 +34,30 @@
     
     main article img {
         width: 400px;
-        margin: 7px;
+        margin: 5px;
         box-shadow: 3px 3px 3px #bbb;
-        grid: 1fr;
+        float: right;
     }
     
     .town-article {
-        width: 400px;
-        float: left;
-        height: 300px;
-        overflow: scroll;
+        width: auto;
+        height: auto;
+       
     }
     
     .gallery {
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 30px;
-        grid-column-gap: 20px;
+        grid-column-gap: 30px;
+        margin: 15px;
     }
     
     nav ul.hide {
         display: flex;
         justify-content: center;
-        
-    
     }
+    
+    
     
 
     

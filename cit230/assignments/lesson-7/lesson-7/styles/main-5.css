@@ -153,9 +153,6 @@ section.forecast {
 
 .gallery-item img {
     width: 75%;
-}
- 
-figure.pictures img {
     width: 100%;
     border-radius: 15px;
 }
