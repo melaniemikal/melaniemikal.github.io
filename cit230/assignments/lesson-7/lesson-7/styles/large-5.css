@@ -1,0 +1,70 @@
+@media only screen and (min-width: 64em) {
+    
+    
+    
+    header h1 {
+        font-size: 100px;
+        margin: 0px 100px 100px 400px;
+    }
+    
+    header img {
+        width: 300px;
+        top: 200px;
+        margin: 0 30px;
+        
+    }
+    
+    
+    nav ul li a {
+        font-size: 2rem;
+    }
+    
+    header .subheading {
+        font-size: 45px;   
+    }
+  
+    main article {
+        font-size: 50px;   
+    }
+    
+    main article img {
+        width: 45%;
+        
+    }
+    
+    .town-article {
+        width: 45%;
+        font-size: 20px;
+        overflow: visible;
+    }
+    
+    main figure img {
+        margin: 75px 100px;
+        height: 400px;
+    }
+    
+    .franklin {
+        font-size: 36px;
+    }
+    
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 50px;
+    }
+    
+    figure.pictures img {
+        border-radius: none;
+    }
+    
+    .gallery-item:hover {
+        box-shadow: 5px 5px #bbb;
+        border-radius: 15px;
+    }
+    
+    footer {
+        font-size: 16px;
+}
+    .footer-bar {
+        font-size: 16px;
+}
+}

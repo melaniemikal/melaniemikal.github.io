@@ -1,0 +1,196 @@
+* { box-sizing: border-box;} 
+
+body {
+  font-size: 16px;
+  font-family: "Noto Serif", serif;
+}
+
+header, nav, main, footer { 
+  max-width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+} 
+   
+    header h1 {
+        color: #0980CE;
+        font-size: 30px;
+        margin: 50px 130px;
+    }
+
+    header img {
+        position: relative;
+        top: 125px;
+        left: 2px;
+        width: 65px;
+        height: 65px;
+    }
+    
+    
+
+header .subheading {
+    font-family: "Nunito", sans-serif;
+    color: #0980CE;
+    text-align: center;
+    margin-top: -45px;
+}
+
+nav {
+    background-color: #9CF8CC;
+    text-align: center;
+    
+    
+}
+nav button {
+    background-color: transparent;
+    margin: .2rem 2%;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li { 
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    margin: 15px 15px;
+}
+
+nav ul li a {
+    display: flex;
+    color: #0980CE;
+    text-align: center;
+    text-decoration: none;
+    font-size: .8rem;
+}
+    
+
+nav ul li.active a {}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.2);
+    
+}
+
+nav ul.hide {display: none;}
+
+main {}
+main h2 {
+    text-align: center;
+    color:#0980CE;
+    
+}
+main figure { 
+    margin: 0 0 .2rem 13%; width: 90%;
+}
+
+main figure img { 
+    width: 75%;
+    height: auto;
+    display: flex;
+    margin: 50px 20px;
+}
+
+main article {
+    text-align: center;
+    padding: 10px 10px;
+    
+    
+}
+
+main article img {
+    width: 95%;
+    height: auto;
+    padding: 10px;
+}
+
+.current {
+    text-align: center;
+    display: grid;
+}
+
+.current img {
+    width: 75px;
+    height: 75px;
+    float: inherit;
+}
+
+
+.highlow {
+    display: grid;
+    text-align: center; 
+}
+
+.conditions {
+    flex-direction: column;
+    text-align: center;
+}
+
+#windchill {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+section.forecast {
+    display: none;
+}
+
+
+.gallery {
+    display: grid;
+    grid-row-gap: 30px;
+}
+
+.gallery-item img {
+    width: 75%;
+}
+ 
+figure.pictures img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.photo{
+    font-size: 45px;
+    text-align: center;
+    color: #0980CE;
+    font-family: "Nunito", sans-serif;
+    margin: 50px 10px;
+    padding: 10px 10px;
+}
+
+
+
+
+
+footer {
+    clear: both;
+    background-color: #A1D5F6;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+.footer-bar {
+    background-color: #70BDEF;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+}
+
+
+
+
+
