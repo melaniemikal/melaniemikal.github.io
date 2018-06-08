@@ -27,6 +27,10 @@
         display: inline-grid;
     }
     
+    nav ul li a {
+        font-size: 20px;
+    }
+    
     main article {
         margin: 7px;
         grid: 1fr;
