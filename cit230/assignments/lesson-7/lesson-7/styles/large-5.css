@@ -17,6 +17,8 @@
     
     nav ul li a {
         font-size: 2rem;
+        margin: 20px;
+        padding: 10px;
     }
     
     header .subheading {
