@@ -19,6 +19,7 @@ thead th {
 thead td {
     background-color: #628ca6;
     color: white;
+    font-weight: bold;
 }
 
 td {
