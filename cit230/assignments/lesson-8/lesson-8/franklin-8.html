@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A website for fishermen to know when is the best time to fish.">
+        
+        <title>A weather site for fisherman. The Fisherman's Forecast</title>
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main-5.css">
+        <link rel="stylesheet" href="styles/medium-5.css">
+        <link rel="stylesheet" href="styles/large-5.css">
+        
+</head>
+<body>
+
+      <div class="header">
+          <header>
+
+              <img src="images/fishermanLogo.jpg" alt="logo" sizes="75vw" 
+                   srcset="images/fishermanLogo.jpg 375w, 
+                           images/fishermanLogo-Medium.jpg 450w">
+
+              <h1>The Fisherman's Forecast</h1>
+              <p class="subheading">Don't let the weather lure you in</p>
+          </header>
+      </div>
+   
+
+  <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="franklin-8.html">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-8.html">Gallery</a></li>
+        </ul>		
+  </nav>
+    
+  <main>
+        
+      
+        <figure>
+            <img src="images/beach-boats-clouds-1100.jpg" alt="Boats on the Beach" sizes="75vw" 
+                 srcset="images/beach-boats-clouds-250.jpg 300w, 
+                         images/beach-boats-clouds-400.jpg 400w, 
+                         images/beach-boats-clouds-600.jpg 600w">    
+            
+        </figure>
+      
+        <h2 class="franklin">Franklin</h2>
+      
+        <section class="weather-summary">
+                
+           
+        <div class="current">
+            <h3>Sunny</h3>
+        <picture>
+            <img src="images/sun.jpg" alt="sunny">
+        </picture>
+        </div>    
+            
+        <div class="highlow">
+            <p>High: 90&deg;F&nbsp; &nbsp;  
+               Low: 66&deg;F</p>  
+        </div>
+            
+        
+            
+        <div class="conditions">
+            <p>Precipitation: 0&#37;</p>  
+            <p>Wind Speed: 5 mpg SW</p>  
+        </div>
+        
+        <div id="windchill">
+            <p>Windchill: </p>    
+        </div>
+        
+   
+            
+        </section>
+   
+       
+    <section class="forecast">
+        <h3>Ten Day Forecast</h3>
+        
+          <table class="day">
+            <thead>
+              <tr>
+                <th>Day 1</th>
+                <th>Day 2</th>
+                <th>Day 3</th>
+                <th>Day 4</th>
+                <th>Day 5</th>
+                <th>Day 6</th>
+                <th>Day 7</th>
+                <th>Day 8</th>
+                <th>Day 9</th>
+                <th>Day 10</th>
+              </tr>
+            </thead>
+              
+            <tbody>  
+              <tr>
+                <td>89&deg;F</td>
+                <td>87&deg;F</td>
+                <td>78&deg;F</td>
+                <td>75&deg;F</td>
+                <td>72&deg;F</td>
+                <td>72&deg;F</td>
+                <td>79&deg;F</td>
+                <td>83&deg;F</td>
+                <td>85&deg;F</td>
+                <td>89&deg;F</td>
+              </tr>
+	        </tbody>
+              
+        </table>
+        </section>
+     
+      
+        <article>
+          <h3>Franklin Breaks Record</h3>	
+            
+          <img src="images/sunny-dogOptimized.jpg" alt="Franklin Sunny Fall Day">    
+         
+          <p class="town-article">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida urna eget eros bibendum sollicitudin. Aliquam erat volutpat. Aliquam sed erat facilisis, condimentum velit vitae, suscipit eros. Donec vitae quam venenatis, egestas justo eu, cursus turpis. Vivamus feugiat sem at pellentesque efficitur. Nunc auctor ante in sagittis porttitor. Praesent eget porta velit. Phasellus facilisis et ex in blandit. Nam vel sem augue.
+
+            Donec at augue nec nisl lacinia pellentesque lacinia vel nisi. Duis id accumsan mi. Maecenas vehicula eros quis ligula volutpat, sit amet efficitur felis commodo. Vestibulum aliquet lorem lectus. Phasellus rhoncus nisi vel commodo tempor. In et eleifend velit. In ut luctus sem. Donec vestibulum finibus arcu, quis aliquet arcu volutpat consequat. Aliquam dictum mi ut justo vestibulum porta. Morbi orci neque, sagittis sed turpis at, sollicitudin varius lectus. Duis ultricies consectetur mauris, vitae blandit enim luctus quis. Nam congue maximus lacus, eget accumsan diam maximus et. Cras scelerisque elit et eros bibendum, varius pellentesque urna rhoncus.
+
+            Suspendisse aliquet dui vel blandit suscipit. Etiam convallis nisl ac orci congue gravida. Vivamus quam turpis, sagittis ac neque quis, feugiat vehicula arcu. Nunc interdum nisl eget enim ullamcorper egestas. Sed nec commodo felis. Nullam nec egestas leo. Proin elementum libero eu tortor consequat molestie. Cras sit amet iaculis est, ac gravida metus. Sed facilisis condimentum mi. Aliquam neque nibh, suscipit id ultricies non, posuere et ante.  
+          </p>
+            
+        </article>		  
+  
+        </main>
+    
+  <footer>
+    <section class="contact">
+      <h4>The Fisherman's Forecast<br>
+      999.999.9999<br>
+      123 Main St.<br>
+      Franklin, TN 37027<br>
+      Google Map
+      </h4>
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | The Fisherman's      Forecast | <span id="currentdate"></span>
+    </section>
+  </footer>
+    
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+</body>
+</html>
