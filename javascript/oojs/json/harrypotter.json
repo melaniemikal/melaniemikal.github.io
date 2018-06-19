@@ -1,0 +1,37 @@
+{
+  "characterName" : "Harry Potter Characters",
+  "homeTown" : "Hogwarts",
+  "formed" : "The Marauders Map
+  "active" : true,
+  "members" : [
+    {
+      "name" : "Sirius Black",
+      "secretIdentity" : "Padfoot",
+      "powers" : [
+        "Can turn into a dog",
+        "Loyality"
+      ]
+    },
+    {
+      "name" : "Remus Lupin",
+      "secretIdentity" : "Moony",
+      "powers" : [
+        "Can turn into a werewolf" 
+      ]
+    },
+    {
+      "name" : "Peter Pettigrew",
+      "secretIdentity" : "Wormtail, Scabbers",
+      "powers" : [
+        "Can turn into a rat",
+        "Has a magical silver hand"
+      ]
+    },
+    "name" : "James Potter",
+    "secretIdenity" : "Prongs",
+    "powers : [
+      "Can turn into a stag"
+      ]
+    }
+  ]
+}
