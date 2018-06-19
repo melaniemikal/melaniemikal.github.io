@@ -1,6 +1,7 @@
 {
   "characterName" : "Harry Potter",
   "homeTown" : "Hogwarts",
+  "formed" : "The Marauders Map
   "active" : true,
   "members" : [
     {
@@ -25,6 +26,10 @@
         "Can turn into a rat",
         "Has a magical hand"
       ]
-    }
+    },
+    "name" : "James Potter",
+    "secretIdenity" : "Prongs",
+    "powers : [
+      "Can turn into a stag"
   ]
 }
