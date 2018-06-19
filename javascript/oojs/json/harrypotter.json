@@ -6,7 +6,7 @@
   "members" : [
     {
       "name" : "Sirius Black",
-      "secretIdentity" : "Padfoot",
+      "animagusName" : "Padfoot",
       "powers" : [
         "Can turn into a dog",
         "Loyality"
@@ -14,21 +14,21 @@
     },
     {
       "name" : "Remus Lupin",
-      "secretIdentity" : "Moony",
+      "animagusName" : "Moony",
       "powers" : [
         "Can turn into a werewolf" 
       ]
     },
     {
       "name" : "Peter Pettigrew",
-      "secretIdentity" : "Wormtail, Scabbers",
+      "animagusName" : "Wormtail, Scabbers",
       "powers" : [
         "Can turn into a rat",
         "Has a magical silver hand"
       ]
     },
     "name" : "James Potter",
-    "secretIdenity" : "Prongs",
+    "animagusName" : "Prongs",
     "powers : [
       "Can turn into a stag"
       ]
