@@ -1,0 +1,308 @@
+* { box-sizing: border-box;} 
+
+body {
+  font-size: 16px;
+  font-family: "Noto Serif", serif;
+}
+
+header, nav, main, footer { 
+  max-width: 100%;
+}
+
+
+   
+    header h1 {
+        color: #0980CE;
+        font-size: 1.5rem;
+        margin: 25px  130px;
+    }
+
+    header img {
+        float: left;
+        top: 125px;
+        left: 2px;
+        width: 95px;
+        height: 65px;
+        margin: 0 0 35px;
+    }
+    
+    
+
+header .subheading {
+    font-family: "Nunito", sans-serif;
+    color: #0980CE;
+    text-align: center;
+    margin: 20px 150px;
+}
+
+nav {
+    background-color: #9CF8CC;
+    text-align: center;
+    
+    
+}
+nav button {
+    background-color: transparent;
+    margin: .2rem 2%;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li { 
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    margin: 15px 15px;
+}
+
+nav ul li a {
+    display: flex;
+    color: #0980CE;
+    text-align: center;
+    text-decoration: none;
+    font-size: .8rem;
+}
+    
+
+nav ul li.active a {}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.2);
+    
+}
+
+nav ul.hide {display: none;}
+
+main {}
+main h2 {
+    text-align: center;
+    color:#0980CE;
+    
+}
+main figure { 
+    margin: 0 0 .2rem 13%; width: 90%;
+}
+
+main figure img { 
+    width: 75%;
+    height: auto;
+    display: flex;
+    margin: 50px 20px;
+}
+
+main article {
+    text-align: center;
+    padding: 10px 10px;
+    
+    
+}
+
+main article img {
+    width: 95%;
+    height: auto;
+    padding: 10px;
+}
+
+
+.current {
+    text-align: center;
+    display: flex;
+    margin: 50px 150px;
+    justify-content: center;
+}
+
+.current img {
+    width: 75px;
+    height: 75px;
+    margin: 10px;  
+}
+
+
+.highlow {
+    text-align: center; 
+}
+
+.conditions {
+    flex-direction: column;
+    text-align: center;
+}
+
+#windchill {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+section.forecast {
+    display: none;
+}
+
+
+.gallery {
+    display: grid;
+    grid-row-gap: 30px;
+}
+
+.gallery-item img {
+    width: 75%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.photo{
+    font-size: 45px;
+    text-align: center;
+    color: #0980CE;
+    font-family: "Nunito", sans-serif;
+    margin: 50px 10px;
+    padding: 10px 10px;
+}
+
+h1 {
+    color: #044A77;
+    text-align: center;
+}
+
+.user {
+    display: block;
+    margin: 2rem;
+    font-family: "Nunito", sans-serif;
+    color: #0980CE;
+}
+
+.severe {
+    margin: 2rem;
+    color: #0980CE;
+    font-family: "Nunito", sans-serif;
+}
+
+.danger {
+    display: block;
+    margin: 0.5rem 2rem;
+    color: #0980CE;
+    font-family: "Nunito", sans-serif;
+}
+
+.comments {
+    display: block;
+    border: #0980CE solid 1px; 
+    font-family: "Nunito", sans-serif;
+    border-radius: 6px;
+    font-size: .75rem;
+    color: #0980CE;
+}
+
+.submit {
+    border: none;
+    background-color: #0980CE;
+    color: white;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-family: "Nunito", sans-serif;
+    border-radius: 6px;
+}
+
+
+label.user input {
+    border-radius: 6px;
+    border: #50A1D5 solid 1px;
+    height: 2rem;
+    margin: 10px;
+}
+
+.info {
+    display: block;
+    margin: 3rem 2rem;
+    font-family: "Nunito", sans-serif;
+    color: #0980CE;
+}
+
+.city {
+    font-family: "Nunito", sans-serif;
+    color: #0980CE;
+    border-radius: 6px;
+}
+
+.thanks {
+    color: #0980CE;
+    margin: 2rem;
+    text-align: center;
+}
+
+form label.user input:required {
+    background-color: #A8D5F2; 
+}
+
+form label.user input:required:valid {
+    background-color: #4ADD96;
+}
+
+.weatherstory {
+    margin: 10px;
+    padding: 10px;
+}
+
+.weatherstory img {
+    border-radius: 15px;
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place-towns {
+    margin: 10px;
+    padding: 10px;
+}
+
+.franklin, .greenville, .springfield {
+    margin: 50px 25px;
+    box-shadow: 5px 5px #bbb;
+    border-radius: 15px;
+}
+
+.franklin img, .greenville img, .springfield img {
+    border-radius: 15px;
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+footer {
+    clear: both;
+    background-color: #A1D5F6;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+.footer-bar {
+    background-color: #70BDEF;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+

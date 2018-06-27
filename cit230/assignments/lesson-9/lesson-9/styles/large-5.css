@@ -1,0 +1,155 @@
+@media only screen and (min-width: 64em) {
+    
+    
+    
+    header h1 {
+        font-size: 100px;
+        margin: 0px 100px 100px 400px;
+    }
+    
+    header img {
+        width: 300px;
+        top: 200px;
+        margin: 0 30px;
+        
+    }
+    
+    div.header {
+        margin: 75px;
+    }
+    
+    
+    nav ul li a {
+        font-size: 2rem;
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    header .subheading {
+        font-size: 45px;   
+    }
+  
+    main article {
+        font-size: 50px;   
+    }
+    
+    main article img {
+        width: 45%;
+        
+    }
+    
+    .town-article {
+        width: 45%;
+        font-size: 20px;
+        overflow: visible;
+    }
+    
+    main figure img {
+        margin: 75px 100px;
+        height: 400px;
+    }
+    
+    .franklin {
+        font-size: 36px;
+    }
+    
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 50px;
+    }
+    
+    figure.pictures img {
+        border-radius: none;
+    }
+    
+    .gallery-item:hover {
+        box-shadow: 5px 5px #bbb;
+        border-radius: 15px;
+    }
+    
+    footer {
+        font-size: 16px;
+}
+    .footer-bar {
+        font-size: 16px;
+}
+    
+    .highlow {
+        margin: 65px;
+        font-size: 20px;
+    }
+    
+    .conditions {
+        margin: 50px;
+        font-size: 20px;
+    }
+    
+    #windchill {
+        margin: 85px;
+        font-size: 20px;
+    }
+    
+    .current {
+        margin: 75px;
+        padding: 0 0 0 95px;
+        font-size: 20px;
+    }
+    .current img {
+        margin: 0 25px;
+    }
+    
+    .weatherstory {
+        padding: 50px;
+        margin: 75px
+        
+    }
+    
+    .weatherstory img {
+        border-radius: 25px;
+        box-shadow: 10px 10px #112a53;
+        width: 450px;
+        height: auto;
+        margin: 20px 75px;
+    }
+    
+    .weatherstory p {
+        height: 250px;
+        width: auto;
+    }
+    
+    div.franklin, div.greenville, div.springfield {
+        display: grid;
+        float: none;
+    }
+    
+    .franklin p, .greenville p, .springfield p {
+        display: grid;
+        float: none;
+    }
+    
+    div article {
+        font-size: 1em;
+    }
+    
+    .weatherstory h2 {
+        font-size: 2.5em;
+    }
+    
+    .place-towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 3em;
+    }
+    
+    .franklin h2 {
+        font-size: 1em;
+    }
+    
+    .franklin p {
+        font-size: .5em;
+    }
+    
+    .greenville h2, .springfield h2 {
+        font-size: 2em;
+    }
+}

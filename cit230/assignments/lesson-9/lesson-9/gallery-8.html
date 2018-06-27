@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pictures of local weather and what is happening around you.">
+        
+        <title>A weather site for fisherman. The Fisherman's Forecast</title>
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main-5.css">
+        <link rel="stylesheet" href="styles/medium-5.css">
+        <link rel="stylesheet" href="styles/large-5.css">
+        
+</head>
+<body>
+
+      <header>
+          
+          <img src="images/fishermanLogo.jpg" alt="logo" sizes="75vw" 
+                   srcset="images/fishermanLogo.jpg 375w, 
+                           images/fishermanLogo-Medium.jpg 450w">
+          
+          <h1>The Fisherman's Forecast</h1>
+          <p class="subheading">Don't let the weather lure you in</p>
+      </header>
+   
+
+  <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="franklin-8.html">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-8.html">Gallery</a></li>
+        </ul>		
+  </nav>
+    
+<h1 class="photo">Photo Gallery</h1>
+    
+  
+      
+  
+  <div class="gallery">
+      <div class="gallery-item">
+        <img src="images/LakeSunset.jpg" alt="Lake Sunset">
+          <h3 class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="images/Clouds.jpg" alt="Pink Clouds">
+          <h3 class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="images/CloudsAndSun.jpg" alt="Clouds with the Sun coming through">
+          <h3 class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="images/Rainbow.jpg" alt="Rainbow">
+          <h3 class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="images/Snow.jpg" alt="Small town with snow">
+          <h3 class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="images/Thunder.jpg" alt="Thunder">
+          <h3 class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      </div>
+    </div>
+
+
+  
+    
+    
+  <footer>
+    <section class="contact">
+      <h4>The Fisherman's Forecast<br>
+      999.999.9999<br>
+      123 Main St.<br>
+      Franklin, MN 55333<br>
+      Google Map
+      </h4>
+      <h4>Weather Data Provided by<a href="https://openweathermap.org">OpenWeatherMap.org</a></h4>
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | The Fisherman's      Forecast | <span id="currentdate"></span>
+    </section>
+  </footer>
+    
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+   
+
+</body>
+</html>
