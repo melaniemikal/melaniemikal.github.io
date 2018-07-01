@@ -65,6 +65,10 @@
         margin: 15px;
     }
     
+    .gallery-item {
+        margin: 40px;
+    }
+    
     nav ul.hide {
         display: flex;
         justify-content: center;
@@ -111,12 +115,12 @@
     }
     
     .weather-summary {
-        margin: 0 75px 0 0;
+        margin: 10px 75px 15px 60px;
         padding: 0 30px;
     }
     
     .weather-summary1 {
-        margin: 0 75px 0 0;
+        margin: 12px 75px 15px 60px;
         padding: 0 30px;
     }
     
