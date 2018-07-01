@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A website for fishermen to know when is the best time to fish.">
         
-        <title>A weather site for fisherman. The Fisherman's Forecast</title>
+        <title>Springfield Weather</title>
     
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -36,7 +36,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="franklin.html">Franklin</a></li>
             <li><a href="greenville.html">Greenville</a></li>
-            <li><a href="springfield.html">Springfield</a></li>
+            <li class="active"><a href="springfield.html">Springfield</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>		
@@ -45,7 +45,7 @@
   <main>
         
         <h2 id="frank">Springfield</h2>
-      
+        <div class="flex">
         <figure>
             <img src="images/springfield.jpg" alt="Boats on the Beach" sizes="75vw" 
                  srcset="images/springfield.jpg 300w, 
@@ -57,7 +57,7 @@
         
       
         <section class="weather-summary">
-            <p class="current"><img src="" id="weatherimage" atl="weather conditions"></p>  
+            <p class="current"><img src="" alt="weather icon" id="weatherimage" ></p>  
             <p class="highlow">Current Temperature: <span id="currentTemp"></span> &deg;F</p> 
             <p class="conditions">Humidity:  <span id="precip">&#37;</span></p>  
             <p class="conditions">Wind Speed: <span id="wspeed"></span> mpg SW</p> 
@@ -66,6 +66,7 @@
         
         
         </section>
+      </div>
    
        
     <section class="forecast">
@@ -160,6 +161,8 @@
         }
 
     </script>
+    <script src="scripts/navigation.js"></script>
 
 </body>
+    
 </html>

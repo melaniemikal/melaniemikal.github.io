@@ -55,8 +55,6 @@
         font-size: 20px;
     }
     
-    
-    
     .franklin {
         font-size: 36px;
     }
@@ -66,22 +64,21 @@
         margin: 50px;
     }
     
-    figure.pictures img {
-        border-radius: none;
-    }
-    
     .gallery-item:hover {
         box-shadow: 5px 5px #0980CE;
         border-radius: 15px;
     }
     
+    .gallery-item {
+        margin: 25px; 
+    }
     
     footer {
         font-size: 16px;
-}
+    }
     .footer-bar {
         font-size: 16px;
-}
+    }
     
     .highlow {
         font-size: 20px;
@@ -91,18 +88,8 @@
         font-size: 20px;
     }
     
-    .current {
-        
-        padding: 0 0 0 95px;
-        font-size: 20px;
-    }
-    .current img {
-        margin-left: auto;
-        margin-right: auto;
-    }
     
     .weatherstory {
-        grid: 1fr;
         width: auto;
         height: auto;
         font-size: 1rem;
@@ -164,5 +151,19 @@
     #green {
         font-size: 2rem;
     }
+    
+    main figure img {
+        width: 600px;
+        height: auto;
+    }
+    
+    .weather-summary {
+        margin: 0 100px;
+    }
+    
+    .weather-summary1 {
+        margin: 0 100px;
+    }
+    
     
     

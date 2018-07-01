@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A website for fishermen to know when is the best time to fish.">
         
-        <title>A weather site for fisherman. The Fisherman's Forecast</title>
+        <title>Franklin Page</title>
     
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -34,7 +34,7 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li><a href="franklin.html">Franklin</a></li>
+            <li class="active"><a href="franklin.html">Franklin</a></li>
             <li><a href="greenville.html">Greenville</a></li>
             <li><a href="springfield.html">Springfield</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
@@ -45,31 +45,29 @@
   <main>
         
         <h2 id="frank">Franklin</h2>
-      
-        <figure>
-            <img src="images/beach-boats-clouds-1100.jpg" alt="Boats on the Beach" sizes="75vw" 
-                 srcset="images/beach-boats-clouds-250.jpg 300w, 
+        <div class="flex">
+                <figure>
+                    <img src="images/beach-boats-clouds-1100.jpg" alt="Boats on the Beach" sizes="75vw" 
+                         srcset="images/beach-boats-clouds-250.jpg 300w, 
                          images/beach-boats-clouds-400.jpg 400w, 
                          images/beach-boats-clouds-600.jpg 600w">    
+                </figure>
+           
             
-        </figure>
+                <section class="weather-summary">
+                    <p class="current"><img src="" alt="weather icon" id="weatherimage"></p>  
+                    <p class="highlow">Current Temperature: <span id="currentTemp"></span> &deg;F</p> 
+                    <p class="conditions">Humidity: <span id="precip"></span>&#37;</p>  
+                    <p class="conditions">Wind Speed: <span id="wspeed"></span> mpg SW</p>
+                    <p class="conditions">Clouds: <span id="clouds"></span>&#37;</p>
+                </section>
+            
       
-       
-      
-        
-      
-        <section class="weather-summary">
-            <p class="current"><img src="" id="weatherimage" alt="weather conditions"></p>  
-            <p class="highlow">Current Temperature: <span id="currentTemp"></span> &deg;F</p> 
-            <p class="conditions">Humidity: <span id="precip"></span>&#37;</p>  
-            <p class="conditions">Wind Speed: <span id="wspeed"></span> mpg SW</p>
-            <p class="conditions">Clouds: <span id="clouds"></span>&#37;</p>
-              
-        </section>
+        </div>
       
       
         
-       
+     <div class="frankWeather">  
      <section class="forecast" >
         <h3>Ten Day Forecast</h3>
         
@@ -106,6 +104,7 @@
               
         </table>
         </section>
+      </div>
         
      
       
@@ -160,9 +159,11 @@
         let imagesrc = 'http://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png';
         document.getElementById("weatherimage").src = imagesrc;
         
-}
+        }
 
     </script>
+    <script src="scripts/navigation.js"></script>
 
 </body>
+    
 </html>
