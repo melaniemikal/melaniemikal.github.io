@@ -152,12 +152,12 @@
         let weatherData = JSON.parse(weatherRequest.response);
         document.getElementById("currentTemp").innerHTML = weatherData.main.temp;
         document.getElementById("wspeed").innerHTML = weatherData.wind.speed;
-        document.getElementById("precip").innerHTML weatherData.main.humidity;
+        document.getElementById("precip").innerHTML = weatherData.main.humidity;
         document.getElementById("clouds").innerHTML = weatherData.clouds.all;
         let imagesrc = 'http://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png';
         document.getElementById("weatherimage").src = imagesrc;
         
-        }
+}
 
     </script>
 
