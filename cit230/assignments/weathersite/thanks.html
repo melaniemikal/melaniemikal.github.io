@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pictures of local weather and what is happening around you.">
+        
+        <title>A weather site for fisherman. The Fisherman's Forecast</title>
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main-5.css">
+        <link rel="stylesheet" href="styles/medium-5.css">
+        <link rel="stylesheet" href="styles/large-5.css">
+        
+</head>
+<body>
+
+      <header>
+          
+          <a href="index.html"><img src="images/fishermanLogo.jpg" alt="logo" sizes="75vw" 
+                   srcset="images/fishermanLogo.jpg 375w, 
+                           images/fishermanLogo-Medium.jpg 450w"></a>
+          
+          <h1>The Fisherman's Forecast</h1>
+          <p class="subheading">Don't let the weather lure you in</p>
+      </header>
+   
+
+  <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+        </ul>		
+  </nav>
+  
+    
+    <h1 class="thanks">Thank you for submitting your report.</h1>
+    <p class="thanks">Your information is very valuable to us at The Fisherman's forecast. Thank you for submitting your storm information.</p>
+
+    
+    
+    
+  
+    
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/severity.js"></script>
+
+</body>
+</html>

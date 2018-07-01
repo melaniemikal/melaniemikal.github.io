@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A website for fishermen to know when is the best time to fish.">
+        
+        <title>A weather site for fisherman. The Fisherman's Forecast</title>
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main-5.css">
+        <link rel="stylesheet" href="styles/medium-5.css">
+        <link rel="stylesheet" href="styles/large-5.css">
+        
+</head>
+<body>
+
+      <div class="header">
+          <header>
+
+               <a href="index.html"><img src="images/fishermanLogo.jpg" alt="logo" sizes="75vw" 
+                   srcset="images/fishermanLogo.jpg 375w, 
+                           images/fishermanLogo-Medium.jpg 450w"></a>
+
+              <h1>The Fisherman's Forecast</h1>
+              <p class="subheading">Don't let the weather lure you in</p>
+          </header>
+      </div>
+   
+
+  <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>		
+  </nav>
+    
+  <main>
+     <article class="weatherstory">
+            <h2>Weather Story</h2>
+            <img src="images/DarkClouds.jpg" alt="Dark Clouds">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis orci nec nisi lacinia, maximus suscipit arcu porta. Praesent erat nulla, porttitor ut risus non, commodo porttitor elit. Nulla quis libero ut quam porta efficitur. Donec vel nisl auctor, congue sapien vitae, luctus justo. Suspendisse ligula metus, porta et aliquet quis, gravida in ex. Vivamus rutrum dictum est porttitor mollis. Praesent urna felis, elementum eget hendrerit vitae, interdum suscipit est. Vivamus scelerisque facilisis tincidunt. Proin interdum laoreet dapibus. Vivamus faucibus finibus turpis, sit amet placerat augue placerat et. Cras in volutpat lorem. Donec quis sagittis lectus. Etiam vitae arcu risus. Phasellus mollis justo neque, eu rutrum felis elementum eu. Sed et purus nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis orci nec nisi lacinia, maximus suscipit arcu porta. Praesent erat nulla, porttitor ut risus non, commodo porttitor elit. Nulla quis libero ut quam porta efficitur. Donec vel nisl auctor, congue sapien vitae, luctus justo. Suspendisse ligula metus, porta et aliquet quis, gravida in ex. Vivamus rutrum dictum est porttitor mollis. Praesent urna felis, elementum eget hendrerit vitae, interdum suscipit est. Vivamus scelerisque facilisis tincidunt. Proin interdum laoreet dapibus. Vivamus faucibus finibus turpis, sit amet placerat augue placerat et. Cras in volutpat lorem. Donec quis sagittis lectus. Etiam vitae arcu risus. Phasellus mollis justo neque, eu rutrum felis elementum eu. Sed et purus nunc.</p>
+        </article>         
+        
+      
+        <div class="place-towns">
+            
+        <div class="franklin-town">
+            <article>
+                <h2>Franklin</h2>
+                <p id="franklin-motto"></p>
+                <p id="franklin-year"></p>
+                <p id="franklin-popul"></p>
+                <p id="franklin-rain"></p>
+            </article>
+            <img src="images/RoadWithTrees.jpg" alt="Fall Lane with Trees">
+        </div>
+      
+            
+        <div class="greenville">
+            <article>
+                <h2>Greenville</h2>
+                <p id="greenville-motto"></p>
+                <p id="greenville-year"></p>
+                <p id="greenville-popul"></p>
+                <p id="greenville-rain"></p>
+            </article>
+            <img src="images/clouds-ocean-sea-6566.jpg" alt="clouds over the ocean">
+        </div>
+      
+            
+        <div class="springfield">
+            <article>
+                <h2>Springfield</h2>
+                <p id="springfield-motto"></p>
+                <p id="springfield-year"></p>
+                <p id="springfield-popul"></p>
+                <p id="springfield-rain"></p>
+            </article>
+            <img src="images/Waterfall.jpg" alt="Waterfall">
+        </div>
+        </div>
+            
+  
+        </main>      
+    
+    
+        
+    
+    
+    
+    
+  <footer>
+    <section class="contact">
+      <h4>The Fisherman's Forecast<br>
+      999.999.9999<br>
+      123 Main St.<br>
+      Franklin, MN 55333<br>
+      Google Map
+      </h4>
+      <h4>Weather Data Provided by <a href="https://openweathermap.org">OpenWeatherMap.org</a></h4>
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | The Fisherman's      Forecast | <span id="currentdate"></span>
+    </section>
+      
+  </footer>
+    
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script>
+        var townRequest = new XMLHttpRequest();
+        var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+        townRequest.open('GET', requestURL, true);
+        townRequest.send();
+        
+        townRequest.onload = function() {
+            var place = JSON.parse(townRequest.response);
+            document.getElementById('franklin-motto').innerHTML = place.towns[0].motto;
+            
+            var year = JSON.parse(townRequest.response);
+            document.getElementById('franklin-year').innerHTML = 'Year Founded: ' + year.towns[0].yearFounded;
+            
+            var popul = JSON.parse(townRequest.response);
+            document.getElementById('franklin-popul').innerHTML = 'Current Population: ' + popul.towns[0].currentPopulation;
+            
+            var rain = JSON.parse(townRequest.response);
+            document.getElementById('franklin-rain').innerHTML = 'Average Rainfall: ' + rain.towns[0].averageRainfall;
+            
+            var place1 = JSON.parse(townRequest.response);
+            document.getElementById('greenville-motto').innerHTML = place1.towns[1].motto;
+            
+            var year1 = JSON.parse(townRequest.response);
+            document.getElementById('greenville-year').innerHTML = 'Year Founded: ' + year1.towns[1].yearFounded;
+            
+            var popul1 = JSON.parse(townRequest.response);
+            document.getElementById('greenville-popul').innerHTML = 'Current Population: ' + popul1.towns[1].currentPopulation;
+            
+            var rain1 = JSON.parse(townRequest.response);
+            document.getElementById('greenville-rain').innerHTML = 'Average Rainfall: ' + rain1.towns[1].averageRainfall;
+            
+            
+            var place3 = JSON.parse(townRequest.response);
+            document.getElementById('springfield-motto').innerHTML = place3.towns[3].motto;
+            
+            var year3 = JSON.parse(townRequest.response);
+            document.getElementById('springfield-year').innerHTML = 'Year Founded: ' + year3.towns[3].yearFounded;
+            
+            var popul3 = JSON.parse(townRequest.response);
+            document.getElementById('springfield-popul').innerHTML = 'Current Population: ' + popul3.towns[3].currentPopulation;
+            
+            var rain3 = JSON.parse(townRequest.response);
+            document.getElementById('springfield-rain').innerHTML = 'Average Rainfall: ' + rain3.towns[3].averageRainfall;
+            
+        }
+        
+        
+            
+                                                 
+        
+        
+        
+    </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+@media only screen and (min-width: 37.5em) {
+    
+    nav button { display:none; }  
+    
+    section.forecast {
+        display: grid;
+        text-align: center;
+        font-size: 23px;
+        color: #0980CE;
+    }
+    
+    section.greenforecast {
+        display: grid;
+        text-align: center;
+        font-size: 23px;
+        color: #03BF65;
+    }
+    
+    .greenday {
+        border: 2px solid #006032;
+    }
+    
+    header h1 {
+        font-size: 45px;
+        margin: 25px 0 0;
+    }
+    header img {
+        width: 150px;
+        height: auto;
+        padding: 10px;
+        margin: 0 0 0 50px; 
+    }
+    
+
+    
+    nav ul li { 
+        display: inline-grid;
+    }
+    
+    nav ul li a {
+        font-size: 20px;
+    }
+    
+    main article {
+        margin: 7px;
+        grid: 1fr;
+    }
+    
+    main article img {
+        width: 300px;
+        margin: 5px;
+        box-shadow: 3px 3px 3px #bbb;
+        float: right;
+    }
+    
+    .town-article {
+        width: auto;
+        height: auto;
+       
+    }
+    
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        margin: 15px;
+    }
+    
+    nav ul.hide {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .day {
+        border: 2px solid #112a53;
+        width: 100%;
+    }
+    .weather-summary {
+        display: grid;
+    }
+    
+    
+    .conditions {
+        margin: 25px;
+    }
+    
+    
+    
+    div.weatherstory article {
+        grid: 1fr;
+        width: auto;
+        height: auto;
+    }
+    
+    .weatherstory img {
+        width: 350px;
+        float: right;
+    }
+    
+    .place-towns {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 50px 25px;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    div.franklin-town article, div.greenville article, div.springfield article {
+    display: inline-block;
+}
+    
+    article.greenville h2, article.franklin-town h2, article.springfield h2 {
+        display: grid;
+        text-align: left;
+    }
+    
+    .greenville img {
+        float: right;
+        width: 50%
+    }
+    
+    .franklin-town img, .springfield img {
+        float: left;
+        width: 45%
+    }
+    
+    #frank {
+        font-size: 2rem;
+    }
+    
+    #green {
+        font-size: 2rem;
+    }
+    
+    main figure img {
+        float: left;
+    }
+    
+    
+    

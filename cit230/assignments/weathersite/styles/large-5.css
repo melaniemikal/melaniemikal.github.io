@@ -1,0 +1,168 @@
+@media only screen and (min-width: 64em) {
+    
+    
+    
+    header, nav, main, footer {
+        max-width: 1230px;
+        margin: 0 auto; 
+    
+    }
+    
+    header h1 {
+        font-size: 60px;
+        margin: 100px 100px 0 400px;
+    }
+    
+    header img {
+        width: 300px;
+        top: 200px;
+        margin: -30px 30px;
+    }
+    
+    div.header {
+        margin: 75px;
+    }
+    
+    
+    nav ul li a {
+        font-size: 1.5rem;
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    nav {
+        margin-top: 75px;
+    }
+    
+    
+    
+    header .subheading {
+        font-size: 30px;
+        padding: 5px;
+    }
+  
+    main article {
+        font-size: 2rem;   
+    }
+    
+    main article img {
+        width: 25%;
+        height: auto;
+        
+    }
+    
+    .town-article {
+        font-size: 20px;
+    }
+    
+    
+    
+    .franklin {
+        font-size: 36px;
+    }
+    
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 50px;
+    }
+    
+    figure.pictures img {
+        border-radius: none;
+    }
+    
+    .gallery-item:hover {
+        box-shadow: 5px 5px #0980CE;
+        border-radius: 15px;
+    }
+    
+    
+    footer {
+        font-size: 16px;
+}
+    .footer-bar {
+        font-size: 16px;
+}
+    
+    .highlow {
+        font-size: 20px;
+    }
+    
+    .conditions {
+        font-size: 20px;
+    }
+    
+    .current {
+        
+        padding: 0 0 0 95px;
+        font-size: 20px;
+    }
+    .current img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .weatherstory {
+        grid: 1fr;
+        width: auto;
+        height: auto;
+        font-size: 1rem;
+    }
+    
+    div article {
+        font-size: 1em;
+    }
+    
+    .weatherstory h2 {
+        font-size: 2.5em;
+    }
+    
+    .place-towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 3em;
+    }
+    
+    div.franklin-town, div.greenville, div.springfield {
+        display: grid;
+        float: none;
+    }
+    
+    .franklin-town p, .greenville p, .springfield p {
+        display: grid;
+        float: none;
+    }
+    
+    div article {
+        font-size: 1em;
+    }
+    
+    .weatherstory h2 {
+        font-size: 2.5em;
+    }
+    
+    .place-towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 3em;
+    }
+    
+    .greenville h2, .franklin-town h2, .springfield h2 {
+        font-size: 2rem;
+    }
+    
+    
+    .franklin-town img, .greenville img, .springfield img {
+        width: 250px;
+        height: auto;
+        
+    }
+    
+    #frank {
+        font-size: 2rem;
+    }
+    
+    #green {
+        font-size: 2rem;
+    }
+    
+    

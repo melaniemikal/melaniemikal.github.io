@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pictures of local weather and what is happening around you.">
+        
+        <title>A weather site for fisherman. The Fisherman's Forecast</title>
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main-5.css">
+        <link rel="stylesheet" href="styles/medium-5.css">
+        <link rel="stylesheet" href="styles/large-5.css">
+        
+</head>
+<body>
+
+      <header>
+          
+          <a href="index.html"><img src="images/fishermanLogo.jpg" alt="logo" sizes="75vw" 
+                   srcset="images/fishermanLogo.jpg 375w, 
+                           images/fishermanLogo-Medium.jpg 450w"></a>
+          
+          <h1>The Fisherman's Forecast</h1>
+          <p class="subheading">Don't let the weather lure you in</p>
+      </header>
+   
+
+  <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>		
+  </nav>
+  
+    
+  <main>
+  <h1>Make a Weather Report in Your Area</h1>
+    
+    <form method="get" action="thanks.html">
+        <fieldset class="field">
+            <legend class="user">Weather Observer Information</legend>
+                <label class="user">Full Name*<input type="text" pattern="[A-Za-z '-]{5,}" title="Minimum of 5 Letters" required />
+                </label>
+                    
+                <label class="user">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="user">Phone*<input type="tel" name="phone" required>
+                </label>
+                <label class="user">Zip Code*<input type="number" name="zipcode" required></label>
+                <label class="user">Storm Date<input type="date" name="completeDate"></label>
+        </fieldset>
+            
+        <fieldset class="field">
+                <legend class="user">Storm Information</legend>
+                <label class="user">Storm Types<input list="stormtypes">
+                <datalist id="stormtypes">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+                </label>    
+           
+                <label for="severity" class="severe">Storm Severity</label>
+                <input type="range" id="severity" value="5" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)" class="severe">
+            
+                <span id="severityvalue">5</span>
+                
+                
+                <label class="user">Storm Region
+                    <select name="region" class="city">
+                    <option value="">Select Region</option>
+                    <option value="franklin">Franklin</option>
+                    <option value="greenville">Greenville</option>
+                    <option value="springfield">Springfield</option>
+                    </select>
+                </label>
+            </fieldset>
+               
+            <fieldset class="field">
+                
+                    <legend class="user">Are you in Danger?</legend>
+                    <label class="danger">User In Danger</label>
+                    <label class="danger"><input type="radio" name="danger" value="yes">Yes</label>
+                    <label class="danger"><input type="radio" name="danger" value="maybe">Maybe</label>
+                    <label class="danger"><input type="radio" name="danger" value="no">No</label>
+                    
+               
+            
+                <label class="info">Addition Information or Comments:<textarea rows="15" cols="50" class="comments"></textarea></label>
+            
+                
+        
+            <input type="submit" value="Send My Information" class="submit">
+            </fieldset>    
+    </form>
+      
+    </main>
+
+    
+    
+    
+  <footer>
+    <section class="contact">
+      <h4>The Fisherman's Forecast<br>
+      999.999.9999<br>
+      123 Main St.<br>
+      Franklin, MN 55333<br>
+      Google Map
+      </h4>
+      <h4>Weather Data Provided by<a href="https://openweathermap.org">OpenWeatherMap.org</a></h4>
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | The Fisherman's      Forecast | <span id="currentdate"></span>
+    </section>
+  </footer>
+    
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/severity.js"></script>
+
+</body>
+</html>
