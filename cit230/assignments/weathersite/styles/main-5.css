@@ -206,9 +206,9 @@ fieldset legend.user {
     background-color: #0980CE;
     color: white;
     padding: .75rem 1.5rem;
-    margin: 2rem 0 2rem 2%;
+    margin: 2rem;
     width: 96%;
-    max-width: 20rem;
+    max-width: 16rem;
     font-family: "Nunito", sans-serif;
     border-radius: 6px;
 }
@@ -230,7 +230,7 @@ label.user input {
 
 .info {
     display: block;
-    margin: 3rem 2rem;
+    margin: 2rem 2rem;
     font-family: "Nunito", sans-serif;
     color: #0980CE;
 }
