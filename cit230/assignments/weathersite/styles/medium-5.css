@@ -107,7 +107,7 @@
     
     div.franklin-town article, div.greenville article, div.springfield article {
     display: inline-block;
-}
+    }
     
     article.greenville h2, article.franklin-town h2, article.springfield h2 {
         display: grid;
@@ -147,4 +147,6 @@
         height: auto;
     }
     
+    
+
     

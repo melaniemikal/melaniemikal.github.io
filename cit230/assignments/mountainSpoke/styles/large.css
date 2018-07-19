@@ -1,0 +1,63 @@
+@media only screen and (min-width: 64em) {
+    
+    header, nav, main, footer, body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    header h1 {
+        font-size: 5rem;
+    }
+    
+    header img {
+        margin: 10px 75px 0 0;
+        width: 175px;
+    }
+    
+    nav {
+        margin: 20px 0;
+    }
+    
+    .welcome p, ul li {
+        margin: 0 75px;
+    }
+    
+    .beginner {
+        display: inline-block;
+        height: auto;
+        margin: 10px 10px 10px 0;
+        box-shadow: 5px 5px #03899C;
+        border-radius: 25px;
+    }
+    
+    .trail {
+        margin: 10px 10px 0;
+        box-shadow: 5px 5px #03899C;
+    }
+    
+    .spring {
+        margin: 10px 10px 0;
+        box-shadow: 5px 5px #03899C;
+    }
+    
+    fieldset {
+        margin: 25px 95px 10px 100px;
+     }
+    
+    .gallatin h3, .bear h3 {
+        font-size: 1.75rem;
+    }
+    
+    .gallatin p, .bear p {
+        font-size: 18px;
+    }
+    
+    .tours {
+        font-size: 20px;
+    }
+    
+    .gallatin {
+        margin-top: 75px;
+    }
+    
+}

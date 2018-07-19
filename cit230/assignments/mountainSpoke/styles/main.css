@@ -1,0 +1,284 @@
+
+
+header h1 {
+    font-family: "Alice", serif;
+    color: #FF7A00;
+    font-size: 2rem;
+    margin: 10px 20px 0;
+    padding: 50px 0;
+    position: static;
+    
+    
+}
+
+header img {
+    float: right;
+    margin: 30px 20px 0 0;
+    height: 100px;
+    width: auto;
+    
+}
+
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav button {
+    background-color: transparent;
+    margin: .2rem 2%;
+    border: none;
+    font-size: 1.6rem;
+    color: #C65F00;
+    font-size: 44px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    margin: 15px;
+    font-size: 40px;
+    font-family: "Cuprum", sans-serif;
+}
+
+nav ul li a {
+    color: #C65F00;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    background: linear-gradient(#FF4739 0%, #FF7A00 100%);
+    color: white;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    color: #00C322;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+
+.welcome{
+    font-family: "Alice", serif;
+    text-align: center;
+    color: #FF7A00;
+    font-size: 1.25rem;
+    margin: 0 0 50px 0;
+    
+}
+
+.beginner {
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #9B0B00;
+}
+
+.trail {
+    display: none;
+}
+
+.spring {
+    display: none;
+}
+
+.welcome h2{
+    margin: 5px 15px 15px;  
+}
+
+
+.welcome p {
+    font-family: "Cuprum", sans-serif;
+    font-size: 1.25rem;
+    color: #007715;
+    margin: 0 25px;
+    
+}
+
+.welcome ul li {
+    font-family: "Cuprum", sans-serif;
+    font-size: 1.25rem;
+    color: #007715;
+    list-style-type: none;
+    margin: 0 25px;
+    
+}
+
+.schedule img {
+    width: 250px;
+    height: auto;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.schedule input {
+    font-family: "Cuprum", sans-serif;
+    font-size: 35px;
+    background-color: #2DC748;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.schedule input:hover {
+    color: #FF1300;
+}
+
+.footer {
+    text-align: center;
+    font-family: "Alice", serif;
+    color: #01535F;
+    padding: 5px 0;
+    font-size: .85rem;
+    background-color: #FFAE64
+}
+
+.footer a {
+    color: #01535F;
+}
+
+.footer a:hover {
+    color: #FF1300;
+}
+
+.footerBar {
+    text-align: center;
+    font-family: "Cuprum", serif;
+    color: #01535F;
+    margin: 0 0 30px;
+    background-color: #FFAE64;
+}
+
+.footerBar a {
+    color: #01535F;
+}
+
+.footerBar a:hover {
+    color: #FF1300;
+}
+
+.user {
+    display: block;
+    padding: 10px;
+    font-family: "Cuprum", sans-serif;
+    font-size: 20px;
+    color: #01535F;
+}
+
+.userField {
+    width: 50%;
+}
+
+label.user input {
+    background-color: #FFAE64;
+    height: 1.5rem;
+    margin: 0 10px;
+}
+
+label.user textarea {
+    background-color: #FFAE64;
+    display: block;
+}
+
+label.user input:valid {
+    background-color: #49A8B5;
+}
+
+label.user textarea:valid {
+    background-color: #49A8B5;
+}
+
+fieldset legend {
+    font-family: "Cuprum", sans-serif;
+    font-size: 1.5rem;
+    color: #01535F;
+}
+
+fieldset {
+    border:3px solid #01535F;
+    margin: 20px;
+}
+
+.contact {
+    font-family: "Alice", serif;
+    font-size: 2rem; 
+    color: #01535F;
+    margin: 20px;
+    border: 3px solid #01535F;
+}
+
+.contact a {
+    color: #01535F;
+}
+
+form .submit {
+    background-color: #01535F;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Cuprum", sans-serif;
+    width: 80%;
+    margin: 0 35px;
+}
+
+.thanks {
+    font-family: "Cuprum", serif;
+    text-align: center;
+    margin: 3rem;
+    padding: 2rem;
+    color: #01535F;
+}
+
+.adventure {
+    background-image: url(../images/Bozeman2-wideOpaque.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 152, 57, 0.4);
+}
+
+.gallatin h3, .bear h3 {
+    font-family: "Alice", serif;
+    color: #01535F;
+    text-align: center;
+}
+
+.gallatin, .bear {
+    display: inline-block; 
+    margin: 10px 10px;
+    width: 100%
+}
+
+.gallatin p, .bear p {
+    font-family: "Cuprum", sans-serif;
+    text-align: center;
+}
+
+.tours {
+    font-family: "Cuprum", sans-serif;
+    color: #01535F;
+    width: 75%;
+    padding: 20px 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
