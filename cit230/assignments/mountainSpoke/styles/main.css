@@ -3,7 +3,7 @@
 header h1 {
     font-family: "Alice", serif;
     color: #FF7A00;
-    font-size: 1.75rem;
+    font-size: 1.65rem;
     margin: 10px 30px 0;
     padding: 50px 0;
     position: static;
@@ -13,8 +13,8 @@ header h1 {
 
 header img {
     float: right;
-    margin: 30px 30px 0 0;
-    height: 90px;
+    margin: 30px 20px 0 0;
+    height: 80px;
     width: auto;
     
 }
