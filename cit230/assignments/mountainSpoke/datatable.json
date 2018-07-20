@@ -1,0 +1,60 @@
+[{
+     "repairs": [
+         {
+             "repairType" : "Tune-Ups",
+             "repair" : [
+                     "Basic Tune-Up",
+                     "Annual Tune-Up",
+                     "The Works"
+             ],
+             "cost" : [
+                    "$75",
+                    "$150",
+                    "$300"
+             ]
+         },
+         {
+            "repairType" : "Accessory Installs",
+            "repair" : [
+                    "Bag Install",
+                    "Bar Tape Install",
+                    "Fender Install",
+                    "Rack Install",
+                    "Cleat Install"
+            ],
+             "cost" : [
+                    "$15",
+                    "$15",
+                    "$45",
+                    "$15",
+                    "$10"
+             ]
+          },
+         
+          {
+              "repairType" : "Builds",
+              "repair" : [
+                    "Assemble Bike",
+                    "Strip Frame"
+              ],
+              "cost" : [
+                    "$75",
+                    "$50"
+              ]
+          },
+         
+          {
+              "repairType" : "Drivetrain",
+              "repair" : [
+                    "Bottom Bracket Install",
+                    "Bottom Bracket Adjustment"
+                    "Chain Install"      
+              ],
+              "cost" : [
+                    "$30",
+                    "15",
+                    "$8"
+              ]
+          },
+     ]
+ }]
