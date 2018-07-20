@@ -86,6 +86,21 @@
         margin-top: 75px;
     }
     
+    ul.accordion li {
+        width: 100px;
+        display: block;
+        float: left;
+        max-width: 100%;
+        margin: 0 1px;
+    }
+    
+    ul.accordion {
+        position: relative;
+        max-width: 100%;
+    }
+    
+    
+    
 
     
     

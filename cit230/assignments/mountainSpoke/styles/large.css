@@ -62,4 +62,15 @@
         margin-top: 75px;
     }
     
+    ul.accordion li {
+        margin: 25px 1px;
+        width: 175px;
+    }
+    
+    .footer, .footerBar {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1200px;
+    }
 }
+

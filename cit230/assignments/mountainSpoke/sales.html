@@ -1,0 +1,143 @@
+ <!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mountain biking adventure awaits. Novice and experienced riders welcome.">
+    
+    <title>The Mountain Spoke | Sales</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+        $(function(){
+            $(".accordion > li").hover(
+                function(){
+                    var $this = $(this);
+                    $this.stop().animate({"width":"480px"},500);
+                    $('.heading', $this).stop(true,true).fadeOut(3000);
+                    $('bgDescription', $this).stop(true,true).fadeOut(3000);
+                    $('.description', $this).stop(true,true).fadeIn(3000);
+                },
+                function(){
+                    var $this = $(this);
+                    $this.stop().animate({"width":"115px"},1000);
+                    $('.heading', $this).stop(true,true).fadeIn();
+                    $('.bgDescription', $this).stop(true,true).fadeIn(3000);
+                    $('.description', $this).stop(true,true).fadeOut();
+                }
+            )
+        });
+    </script>
+
+</head>
+    
+
+    
+<body>
+    
+    <header>
+        <img src="images/The-Mountain-Spoke-Logo.jpg" alt="logo">
+        <h1>The Mountain Spoke</h1>
+    </header>
+    
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">&#128690; <strong>Home</strong></a></li>
+            <li><a href="tours.html">&#128507; <strong>Adventure Tours</strong></a></li>
+            <li><a href="#">&#128690; <strong>Events</strong></a></li>
+            <li class="active"><a href="sales.html">&#128507; <strong>Sales</strong></a></li>
+            <li><a href="service.html">&#128690; <strong>Service</strong></a></li>
+            <li><a href="contact.html">&#128507; <strong>Contact Us</strong></a></li>
+        </ul>
+    </nav>
+    
+        
+    <ul class="accordion" id="accordion">
+        <li class="bg1">
+            <div class="heading">Diamond Black</div>
+            <div class="bgDescription"></div>
+            <div class="description">
+                <h2>Diamond Black</h2>
+                <p>The Black Rockrider Mountain Bike has a SRAM NX drivetrain, a responsive frame, and is good for all riding styles and trail conditions. The price for the Diamond Black is $1200.00</p>
+            </div>
+        </li>
+    </ul>
+    
+    <ul class="accordion" id="accordion">
+        <li class="bg2">
+            <div class="heading">Yeti Teal</div>
+            <div class="bgDescription"></div>
+            <div class="description">
+                <h2>Yeti Teal</h2>
+                <p>The Yeti Teal Mountain Bike feautres a carbon frame, switch infinity suspension, hydraulic disc brake system, and yeti carbon handlebars. The price for the Yeti Teal is $5,999</p>
+            </div>
+        </li>
+    </ul>
+    
+    <ul class="accordion" id="accordion">
+        <li class="bg3">
+            <div class="heading">Orange Trek Bike</div>
+            <div class="bgDescription"></div>
+            <div class="description">
+                <h2>Orange Trek</h2>
+                <p>The Orange Trek Mountain Bike is lightweight with a carbon frame. It has Trek's exclusive Thru Shaft and all high performance parts. The price for the Orange Trek Bike is $5,099</p>
+            </div>
+        </li>
+    </ul>
+    
+    <ul class="accordion" id="accordion">
+        <li class="bg4">
+            <div class="heading">Yellow Diamondback</div>
+            <div class="bgDescription"></div>
+            <div class="description">
+                <h2>Diamondback</h2>
+                <p>The Yellow Diamondback Scree has an alloy frame, aluminium suspension, metal disc brakes, and resin composite pedals. Great beginner bike. The price for the Yellow Diamondback is $450.00</p>
+            </div>
+        </li>
+    </ul>
+    
+    <ul class="accordion" id="accordion">
+        <li class="bg5" id="bg5">
+            <div class="heading">Red Felt</div>
+            <div class="bgDescription"></div>
+            <div class="description">
+                <h2>Red Felt</h2>
+                <p>The Red Felt Mountain Bike has a full carbon frame, a Fox Float X2 rear shock, and superior riding quality. This bike is great for the beginner or expert. The price for the Red Felt is $350.00</p>
+            </div>
+        </li>
+    </ul>
+    
+    
+        
+    
+    <footer>
+        <section class="footer">
+            <h4>The Mountain Spoke<br>
+            3950 Valley Commons Drive<br>
+            Bozeman, MT 59718<br>
+            406-123-4567<br>
+            <a href="https://goo.gl/maps/kvCavbE4UnQ2">Google Map</a>
+            </h4>
+            
+        </section>
+        
+        <section class="footerBar">
+            &copy;2018 &#128690; All Rights Reserved &#128507; The Mountain Spoke &#128690; <a href="resources.html">References</a>
+        </section>
+    </footer>
+    
+    
+    
+<script src="scripts/hamburger.js"></script>   
+</body>    
+</html>

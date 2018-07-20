@@ -140,10 +140,17 @@ nav ul.hide {
     text-align: center;
     font-family: "Alice", serif;
     color: #01535F;
-    padding: 5px 0;
     font-size: .85rem;
-    background-color: #FFAE64
+    background-color: #FFAE64;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 135px;
 }
+
+
+
 
 .footer a {
     color: #01535F;
@@ -159,6 +166,11 @@ nav ul.hide {
     color: #01535F;
     margin: 0 0 30px;
     background-color: #FFAE64;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0 0 0;
 }
 
 .footerBar a {
@@ -274,6 +286,121 @@ form .submit {
     text-align: center;
     font-size: 18px;
 }
+
+ul.accordion {
+    list-style-type: none;
+    top: 0;
+    font-family: "Cuprum", sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    max-width: 90%;
+}
+
+ul.accordion li {
+    width: 115px;
+    height: 480px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 5px #FFAE64;
+    -moz-box-shadow: 1px 3px 5px #FFAE64;
+    box-shadow: 1px 3px 5px #FFAE64;
+    margin: 0 -25px;
+}
+
+#bg5 {
+    margin-bottom: 150px;
+}
+
+ul.accordion li.bg1 {background-image:url(..//images/BlackMountainBike.jpg);
+background-color: rgba(82, 210, 104, 0.5);
+max-width: 100%;
+}
+
+ul.accordion li.bg2 {background-image:url(../images/BlueMountainBike.jpg);
+background-color: rgba(73, 168, 181, 0.5);
+max-width: 100%;
+}
+
+ul.accordion li.bg3 {background-image:url(../images/OrangeMountainBike.jpg);
+background-color: rgba(255, 152, 57, 0.5);
+max-width: 100%;
+}
+
+ul.accordion li.bg4 {background-image:url(../images/YellowMountainBike.jpg);
+background-color: rgba(187, 241, 94, 0.5);
+max-width: 100%;
+}
+
+ul.accordion li.bg5 {background-image:url(../images/RedMountainBike.jpg);
+background-color: rgba(198, 14, 0, 0.5);
+max-width: 100%;
+}
+
+ul.accordion li.bleft {border-left: 2px solid #fff;}
+
+ul.accordion li. heading {
+    background: #fff;
+    margin-top: 60px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    text-shadow: -1px -1px 1px #ccc;
+    max-width: 100%;
+}
+ 
+ul.accordion li .description {
+    position: absolute;
+    max-width: 100%;
+    height: 175px;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+ul.accordion li .description h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 45px;
+    color: #444;
+    text-align: left;
+    margin: 0 0 15px 20px;
+    text-shadow: -1px -1px 1px #ccc;
+    max-width: 100%;
+}
+
+ul.accordion li .description p {
+    line-height: 14px;
+    margin: 10px 22px;
+    font-family: "Alice", serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.6em;
+    max-width: 100%;
+}
+
+ul.accordion li .bgDescription {
+    background: linear-gradient(0deg, #fff 40%, rgba(225, 225, 225, 0));
+    height: 340px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+
+
+
+ 
 
 
 
