@@ -55,12 +55,11 @@
     .info {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    
     }
     
     .contact {
         text-align: center;
-        margin: 50px 25px;
+        margin: 50px 25px 155px;
         padding: 80px 0;
         background-image: url(../images/MountainBiking.jpg);
         background-repeat: no-repeat;
@@ -71,7 +70,7 @@
     }
     
     fieldset {
-        margin: 50px;
+        margin: 50px 25px 155px;
     }
     
     .contact a {
@@ -85,6 +84,8 @@
     .gallatin {
         margin-top: 75px;
     }
+    
+    
     
     ul.accordion li {
         width: 100px;

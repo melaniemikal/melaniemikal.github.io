@@ -3,8 +3,8 @@
 header h1 {
     font-family: "Alice", serif;
     color: #FF7A00;
-    font-size: 2rem;
-    margin: 10px 20px 0;
+    font-size: 1.75rem;
+    margin: 10px 30px 0;
     padding: 50px 0;
     position: static;
     
@@ -13,8 +13,8 @@ header h1 {
 
 header img {
     float: right;
-    margin: 30px 20px 0 0;
-    height: 100px;
+    margin: 30px 30px 0 0;
+    height: 90px;
     width: auto;
     
 }
@@ -53,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background: linear-gradient(#FF4739 0%, #FF7A00 100%);
+    background: linear-gradient(#FF4739 0%, #FF4739 100%);
     color: white;
     border-radius: 10px;
 }
@@ -136,6 +136,10 @@ nav ul.hide {
     color: #FF1300;
 }
 
+.schedule {
+    margin-bottom: 175px;
+}
+
 .footer {
     text-align: center;
     font-family: "Alice", serif;
@@ -147,6 +151,7 @@ nav ul.hide {
     left: 0;
     right: 0;
     height: 135px;
+    margin-bottom: 10px;
 }
 
 
@@ -164,13 +169,12 @@ nav ul.hide {
     text-align: center;
     font-family: "Cuprum", serif;
     color: #01535F;
-    margin: 0 0 30px;
+    margin: 5px 0;
     background-color: #FFAE64;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 10px 0 0 0;
 }
 
 .footerBar a {
@@ -257,6 +261,7 @@ form .submit {
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(255, 152, 57, 0.4);
+    margin-bottom: 150px;
 }
 
 .gallatin h3, .bear h3 {
