@@ -47,7 +47,7 @@
               "repairType" : "Drivetrain",
               "repair" : [
                     "Bottom Bracket Install",
-                    "Bottom Bracket Adjustment"
+                    "Bottom Bracket Adjustment",
                     "Chain Install"      
               ],
               "cost" : [
