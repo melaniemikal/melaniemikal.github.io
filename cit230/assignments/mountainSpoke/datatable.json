@@ -1,7 +1,7 @@
 {
      "repairs": [
          {
-             "repair" : "Basic Tune-Up"
+             "repair" : "Basic Tune-Up",
              "cost" : 75
          },
          {
