@@ -217,8 +217,46 @@ label.user textarea:valid {
     background-color: #49A8B5;
 }
 
+.user1 {
+    display: block;
+    padding: 10px;
+    font-family: "Alice", sans-serif;
+    font-size: 16px;
+    color: #01535F;
+}
+
+label.user1 input {
+    background-color: #FF6F64;
+    height: 1.5rem;
+    margin: 0 10px;
+}
+
+label.user1 textarea {
+    background-color: #FF6F64;
+    display: block;
+}
+
+label.user1 input:valid {
+    background-color: #9B0B00;
+    color: white;
+}
+
+label.user1 textarea:valid {
+    background-color: #9B0B00;
+    color: white;
+}
+
+.rform {
+    margin-bottom: 175px;
+}
+
+#event {
+    background-color: #9B0B00;
+    color: white;
+}
+
 fieldset legend {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cupsum", sans-serif;
     font-size: 1.5rem;
     color: #01535F;
 }
@@ -226,6 +264,10 @@ fieldset legend {
 fieldset {
     border:3px solid #01535F;
     margin: 20px;
+}
+
+.registration {
+    font-family: "Alice", sans-serif;
 }
 
 .contact {
@@ -425,6 +467,30 @@ table tr, td, th  {
 .bike {
     width: 100%;
 }
+
+.conDivide {
+    background-image: url(../images/ContinentalDivide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 111, 100, 0.3);
+    margin: 20px 20px 50px;
+}
+
+.conDivide ul li {
+    list-style-type: none;
+}
+
+.divide {
+    font-family: "Alice", serif;
+    padding: 10px;
+}
+
+.form {
+    margin: 20px;
+}
+
+
+
 
 
 

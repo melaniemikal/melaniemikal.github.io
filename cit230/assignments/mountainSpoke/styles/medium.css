@@ -109,6 +109,24 @@
         margin: 25px 0 25px 0;
     }
     
+    .form, .conDivide {
+        display: block; 
+    }
+    
+    .conDivide {
+        margin: 10px 0 155px 50px;
+    }
+    
+    .mainEvent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .divide {
+        margin: 50px 0;
+    }
+    
+    
     
     
     
