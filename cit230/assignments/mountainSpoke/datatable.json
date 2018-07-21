@@ -1,0 +1,22 @@
+{
+     "repairs": [
+         {
+             "repair" : "Basic Tune-Up",
+             "cost" : 75
+         },
+         {
+            "repair" : "Bag Install",
+             "cost" : 15
+          },
+         
+          {
+              "repair" : "Assemble Bike",
+              "cost" : 75
+          },
+         
+          {
+              "repair" : "Bottom Bracket Install",
+              "cost" : 30
+          }
+      ]
+ }
