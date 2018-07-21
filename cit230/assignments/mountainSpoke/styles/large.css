@@ -43,7 +43,7 @@
     }
     
     fieldset {
-        margin: 25px 95px 10px 100px;
+        margin: 25px 95px 10px 90px;
      }
     
     .gallatin h3, .bear h3 {
@@ -72,5 +72,6 @@
         margin-left: auto;
         max-width: 1200px;
     }
+
 }
 

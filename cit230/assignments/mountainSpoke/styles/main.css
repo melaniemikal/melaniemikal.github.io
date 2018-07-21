@@ -81,6 +81,7 @@ nav ul.hide {
     margin: 10px;
     border-radius: 15px;
     box-shadow: 5px 5px #9B0B00;
+    max-width: 90%;
 }
 
 .trail {
@@ -169,7 +170,7 @@ nav ul.hide {
     text-align: center;
     font-family: "Cuprum", serif;
     color: #01535F;
-    margin: 5px 0;
+    margin: 5px 0 0 0;
     background-color: #FFAE64;
     position: fixed;
     bottom: 0;
@@ -232,6 +233,7 @@ fieldset {
     font-size: 2rem; 
     color: #01535F;
     margin: 20px;
+    margin-bottom: 150px;
     border: 3px solid #01535F;
 }
 
@@ -401,6 +403,33 @@ ul.accordion li .bgDescription {
     left: 0px;
     width: 100%;
 }
+
+table tr, td, th  {
+    border: 2px solid #01535F;
+    font-family: "Cuprum", sans-serif;
+    text-align: center;
+}
+
+.service {
+    font-family: "Alice", serif;
+    color: #9B0B00;
+    font-size: 2rem;
+    text-align: center;
+    margin: 100px 0 25px 0; 
+}
+
+.color {
+        background-color: rgba(1, 83, 95, 0.3);
+    }
+
+.bike {
+    width: 100%;
+}
+
+
+
+
+
 
 
 

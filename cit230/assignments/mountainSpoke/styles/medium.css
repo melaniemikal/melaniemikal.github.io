@@ -70,7 +70,7 @@
     }
     
     fieldset {
-        margin: 50px 25px 155px;
+        margin: 50px 75px 155px;
     }
     
     .contact a {
@@ -99,6 +99,17 @@
         position: relative;
         max-width: 100%;
     }
+    
+    table tr, td, th  {
+        font-size: 2rem;   
+    }
+
+    .service {
+        font-size: 2.5rem;
+        margin: 25px 0 25px 0;
+    }
+    
+    
     
     
     
