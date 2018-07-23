@@ -6,9 +6,7 @@ header h1 {
     font-size: 1.65rem;
     margin: 10px 30px 0;
     padding: 50px 0;
-    position: static;
-    
-    
+    position: static;    
 }
 
 header img {
@@ -30,8 +28,7 @@ nav button {
     border: none;
     font-size: 1.6rem;
     color: #C65F00;
-    font-size: 44px;
-    
+    font-size: 44px;   
 }
 
 nav ul {
@@ -80,7 +77,7 @@ nav ul.hide {
 .beginner {
     margin: 10px;
     border-radius: 15px;
-    box-shadow: 5px 5px #9B0B00;
+    box-shadow: 10px 10px 10px gray;
     max-width: 90%;
 }
 
@@ -154,8 +151,6 @@ nav ul.hide {
     height: 135px;
     margin-bottom: 10px;
 }
-
-
 
 
 .footer a {
@@ -300,6 +295,14 @@ form .submit {
     color: #01535F;
 }
 
+.thanks1 {
+    font-family: "Alice", serif;
+    text-align: center;
+    margin: 3rem;
+    padding: 2rem;
+    color: #9B0B00;
+}
+
 .adventure {
     background-image: url(../images/Bozeman2-wideOpaque.jpg);
     background-repeat: no-repeat;
@@ -353,8 +356,6 @@ ul.accordion li {
     background-position: center center;
     position: relative;
     cursor: pointer;
-    -webkit-box-shadow: 1px 3px 5px #FFAE64;
-    -moz-box-shadow: 1px 3px 5px #FFAE64;
     box-shadow: 1px 3px 5px #FFAE64;
     margin: 0 -25px;
 }
@@ -452,6 +453,11 @@ table tr, td, th  {
     text-align: center;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .service {
     font-family: "Alice", serif;
     color: #9B0B00;
@@ -466,6 +472,7 @@ table tr, td, th  {
 
 .bike {
     width: 100%;
+    margin-bottom: 155px;
 }
 
 .conDivide {
@@ -488,6 +495,30 @@ table tr, td, th  {
 .form {
     margin: 20px;
 }
+
+.resources {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 25px;
+    font-family: "Cuprum", sans-serif;
+    font-size: 1.5rem;
+}
+
+.resources li {
+    padding: 5px;
+}
+
+.resources li a {
+    color: #9B0B00;
+}
+
+.events {
+    font-family:"Alice", serif;
+    font-size: 2.5rem;
+    color: #9B0B00;
+    text-align: center;
+}
+
 
 
 
