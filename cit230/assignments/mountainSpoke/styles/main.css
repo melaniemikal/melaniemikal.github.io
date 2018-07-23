@@ -127,7 +127,6 @@ nav ul.hide {
     display: grid;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 50px;
 }
 
 .schedule input:hover {
@@ -142,14 +141,11 @@ nav ul.hide {
     text-align: center;
     font-family: "Alice", serif;
     color: #01535F;
-    font-size: .85rem;
+    font-size: .75rem;
     background-color: #FFAE64;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 135px;
-    margin-bottom: 10px;
+    position: relative;
+    clear: both;
+    padding: 10px;
 }
 
 
@@ -165,12 +161,9 @@ nav ul.hide {
     text-align: center;
     font-family: "Cuprum", serif;
     color: #01535F;
-    margin: 5px 0 0 0;
+    padding: 10px;
     background-color: #FFAE64;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;
 }
 
 .footerBar a {
@@ -241,10 +234,6 @@ label.user1 textarea:valid {
     color: white;
 }
 
-.rform {
-    margin-bottom: 175px;
-}
-
 #event {
     background-color: #9B0B00;
     color: white;
@@ -270,7 +259,6 @@ fieldset {
     font-size: 2rem; 
     color: #01535F;
     margin: 20px;
-    margin-bottom: 150px;
     border: 3px solid #01535F;
 }
 
@@ -308,7 +296,6 @@ form .submit {
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(255, 152, 57, 0.4);
-    margin-bottom: 150px;
 }
 
 .gallatin h3, .bear h3 {
@@ -357,11 +344,6 @@ ul.accordion li {
     position: relative;
     cursor: pointer;
     box-shadow: 1px 3px 5px #FFAE64;
-    margin: 0 -25px;
-}
-
-#bg5 {
-    margin-bottom: 150px;
 }
 
 ul.accordion li.bg1 {background-image:url(..//images/BlackMountainBike.jpg);
@@ -472,7 +454,6 @@ table {
 
 .bike {
     width: 100%;
-    margin-bottom: 155px;
 }
 
 .conDivide {
@@ -517,6 +498,13 @@ table {
     font-size: 2.5rem;
     color: #9B0B00;
     text-align: center;
+}
+
+.sales {
+    display: inline-block;
+    font-family: "Cuprum", sans-serif;
+    font-size: 1.25rem;
+    margin: 50px;
 }
 
 
