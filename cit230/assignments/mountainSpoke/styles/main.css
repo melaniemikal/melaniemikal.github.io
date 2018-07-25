@@ -371,11 +371,10 @@ background-color: rgba(198, 14, 0, 0.5);
 max-width: 100%;
 }
 
-ul.accordion li.bleft {border-left: 2px solid #fff;}
+ul.accordion li.bleft {
+    border-left: 2px solid #fff;}
 
-ul.accordion li. heading {
-    background: #fff;
-    margin-top: 60px;
+ul.accordion li .heading {
     opacity: 0.9;
     text-transform: uppercase;
     font-weight: bold;
@@ -505,6 +504,10 @@ table {
     font-family: "Cuprum", sans-serif;
     font-size: 1.25rem;
     margin: 50px;
+}
+
+iframe {
+    border-width: 0px;
 }
 
 
